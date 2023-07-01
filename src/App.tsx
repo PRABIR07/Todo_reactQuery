@@ -1,5 +1,6 @@
 
 import './App.css'
+import PostList from './components/PostList'
 import TodoList from './components/TodoList'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <div>
-      <TodoList/> 
+      {/* <TodoList/>  */}
+      <PostList/>
     </div>
   )
 }
